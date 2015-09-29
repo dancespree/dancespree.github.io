@@ -1,9 +1,11 @@
 FROM ruby
 
+RUN apt-get update
+RUN apt-get install -y nodejs
 RUN gem install jekyll
-RUN gem install therubyracer
 
 ADD . /app/
+WORKDIR /app/
 EXPOSE 4000
 
-CMD jekyll s
+CMD jekyll serve --host 0.0.0.0
