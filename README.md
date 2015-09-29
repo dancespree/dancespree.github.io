@@ -6,17 +6,12 @@ Code for our website
 
 ### Building the project
 
-* Requirements
-    * Ruby
-    * Jekyll: `gem install jekyll`
-
 To build, clone the repo and run:
 
 ```
-$ jekyll s
+docker-compose up
+open http://$(docker-machine ip default):4000
 ```
-
-Go to localhost:4000 to see the website.
 
 ### Want to add your name to this list?
 
