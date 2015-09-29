@@ -13,7 +13,8 @@ Code for our website
 To build, clone the repo and run:
 
 ```
-$ jekyll s
+docker-compose up
+open http://$(docker-machine ip default):4000
 ```
 
 Go to localhost:4000 to see the website.
