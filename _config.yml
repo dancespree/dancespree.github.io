@@ -135,9 +135,9 @@ description: "We're the hackers, builders, makers, and innovators of UMass Amher
 
 # Colors
 color:
-  primary: ff6e00
-  secondary: ff8600
-  secondary-dark: 452411
+  primary: 3B1656
+  secondary: 50266F
+  secondary-dark: 222
 
 # Font stack
 font:
