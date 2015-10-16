@@ -130,8 +130,8 @@ members:
 
 # Site settings
 title: Dance Spree
-email: hackersofumass@gmail.com
-description: "We're the hackers, builders, makers, and innovators of UMass Amherst."
+email: isaac@steig.com
+description: "A Friday night barefoot boogie in Northampton"
 
 # Colors
 color:
@@ -148,13 +148,11 @@ font:
 # Social networks
 social:
   - title: facebook
-    url: https://facebook.com/groups/hackersofumass
+    url: https://www.facebook.com/groups/119163125174/
   - title: github
-    url: https://github.com/hackers-of-umass
-  - title: slack
-    url: https://umassacm.slack.com/messages/hackers-of-umass
+    url: https://github.com/dancespree/dancespree.github.io
   - title: envelope
-    url: mailto:hackersofumass@gmail.com
+    url: mailto:isaac@steig.com
 
 # Build settings
 markdown: kramdown
