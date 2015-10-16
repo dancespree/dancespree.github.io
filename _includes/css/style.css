@@ -498,6 +498,7 @@ section h3.section-subheading {
     text-align: center;
     color: #fff;
     background-color: #{{ site.color.primary }};
+    font-size: 100px;
 }
 
 .timeline>li .timeline-image h4 {
